@@ -5,9 +5,9 @@
     --font-family-body: "Poppins", sans-serif;
     --cor-fundo-body: #E7FBEF;
 
-    --cor-botao-fundo: #4375df;
+    --cor-botao-fundo: #4e77d1;
     --cor-botao-texto: #ffffff;
-    --cor-botao-hover-fundo: #4968cc;
+    --cor-botao-hover-fundo: #3d57af;
     --cor-botao-hover-texto: #ffffff;
     --botao-border-radius: 5px;
 }
@@ -52,10 +52,10 @@ h1 {
     gap: 12px;
 }
 
-/* BOTÃO PRINCIPAL */
+
 .botao {
-    max-width: 200px;
-    padding: 10px 0;          /* padding vertical maior */
+    max-width: 140px;
+    padding: 8px 0;          
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
@@ -72,10 +72,10 @@ h1 {
     transform: translateY(-1px);
 }
 
-/* BOTÃO RESET (MENOR DE VERDADE) */
+
 .botao-reset {
-    max-width: 100px;        /* bem menor */
-    padding: 6px 0;          /* padding menor */
+    max-width: 80px;      
+    padding: 6px 0;         
     font-size: 0.85rem;
     font-weight: bold;
     border: none;
@@ -100,46 +100,50 @@ button:focus-visible {
 
 @media (max-width: 480px) {
     .contador {
-    font-size: 2.4rem;
+        font-size: 2.4rem;
     }
 
     .botao {
         width: 100%;
-        max-width: 260px;
-        padding: 12px 0;
+        max-width: 130px;
+        padding: 10px 0;
         font-size: 1rem;
     }
 
   .botao-reset {
     width: 80%;
-    max-width: 150px;
-    padding: 8px 0;
-    font-size: 0.85rem;
+    max-width: 80px;
+    padding: 6px 0;
+    font-size: 0.75rem;
   }
 }
 
 @media (min-width: 481px) and (max-width: 1024px) {
   .botao {
-    width: 260px;
+    width: 130px;
+    padding: 10px 0;
+    font-size: 1rem;
   }
 
   .botao-reset {
-    width: 150px;
+    width: 80px;
+    padding: 6px 0;
+    font-size: 0.95rem;
 
   }
 }
 
 @media (min-width: 1025px) {
   .botao {
-    width: 280px;
-    padding: 16px 0;
-    font-size: 1.1rem;
+    width: 130px;
+    padding: 10px 0;
+    font-size: 1rem;
   }
 
   .botao-reset {
-    width: 200px;
-    padding: 12px 0;
-    font-size: 1rem;
+    width: 80px;
+    padding: 6px 0;
+    font-size: 0.95rem;
   }
 }
 
